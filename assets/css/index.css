@@ -1,0 +1,16 @@
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header {
+height: 60px;
+margin: 5px 10px;
+}
+
+#nav-links {
+display: flex;
+list-style-type: none;
+gap: 10px;
+}
