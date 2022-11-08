@@ -1,147 +1,148 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
 
 body {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-width: 100%;
-margin:0;
-padding:0;
-background-color: #fff;
-height: 100vh;
-font-family: 'Mulish', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  height: 100vh;
+  font-family: 'Mulish', sans-serif;
 }
 
 .containers {
-display: none;
-margin: 5px 10px;
+  display: none;
+  margin: 5px 10px;
 }
 
-#list-container{
-border: 3px solid #000;
+#list-container {
+  border: 3px solid #000;
 }
 
 main {
-height: 100%;
-width: 100%;
-text-align: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-border: 3px solid #000;
-margin: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #000;
+  margin: 5px 10px;
 }
 
-header,footer {
-width: 100%;
+header,
+footer {
+  width: 100%;
 }
 
 #nav-links {
-display: flex;
-align-items: center;
-list-style-type: none;
-gap: 10px;
-margin-right: 10px;
-
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 10px;
+  margin-right: 10px;
 }
 
 #nav-date {
-text-align: right;
-margin: 5px 10px;
-
+  text-align: right;
+  margin: 5px 10px;
 }
 
 #logo {
-margin-left: 10px;
+  margin-left: 10px;
 }
 
-.links{
-cursor: pointer;
-transition: all 0.5s ease;
+.links {
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
+
 .links:hover {
-scale: 1.1;
+  scale: 1.1;
 }
 
 #foot {
-margin-left: 10px;
-height: 100%;
-padding: 0px;
+  margin-left: 10px;
+  height: 100%;
+  padding: 0;
 }
 
 #foot-container {
-margin: 5px 10px;
- border: 3px solid #000;
+  margin: 5px 10px;
+  border: 3px solid #000;
 }
 
 div.active {
-display:block;
+  display: block;
 }
 
 li.active {
-align-self: center;
-font-size: 1.2em;
-font-weight: bold;
-color: rgb(12, 6, 169);
+  align-self: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(12, 6, 169);
 }
 
 .list {
-display:flex;
-justify-content: space-between;
-align-items: center;
-padding: 0;
-margin: 0;
-height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 40px;
 }
 
 .list span {
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 .btn-remove {
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 #list-all {
-list-style-type: none;
-margin: 0;
-padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .grey {
-background-color: rgb(211, 211, 211);
+  background-color: rgb(211, 211, 211);
 }
 
 #addBook {
-display: block;
-width: 100%;
+  display: block;
+  width: 100%;
 }
 
 #addBook-form {
-display: flex;
-flex-direction: column;
-gap: 20px;
-width: 40%;
-align-items: right;
-margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  align-items: center;
+  margin: 0 auto;
 }
 
 #addBook-container {
-width: 100%;
-margin:0;
-padding: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .form-values {
-width: 100%;
-height: 30px;
-border: 3px solid black;
-font-size: 16px;
+  width: 100%;
+  height: 30px;
+  border: 3px solid black;
+  font-size: 16px;
 }
+
 .btn {
   height: 30px;
   cursor: pointer;
@@ -164,15 +165,19 @@ font-size: 16px;
 }
 
 #contact-container {
-width: 100%;
-height: auto;
-margin: 0;
-padding: 0;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
 }
 
 #contact {
-display: block;
-width: 50%;
-margin: 0 auto;
-text-align: left;
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#form-submit {
+  align-self: end;
 }

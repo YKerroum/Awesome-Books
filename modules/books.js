@@ -3,17 +3,17 @@ export default class Books {
     this.AllBooks = (localStorage.storagebook != null) ? JSON.parse(localStorage.storagebook) : [];
   }
 
-  addBook=(title,author) =>{
-    this.AllBooks.push({ title: title, author: author });
+  addBook=(title, author) => {
+    this.AllBooks.push({ title, author });
     this.updateLocalStorage();
   }
 
-  removeBook=(id) =>{
+  removeBook=(id) => {
     this.AllBooks.splice(id, 1);
     this.updateLocalStorage();
   }
 
-  updateLocalStorage=()=> {
+  updateLocalStorage=() => {
     localStorage.storagebook = JSON.stringify(this.AllBooks);
   }
 }
