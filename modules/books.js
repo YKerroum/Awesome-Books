@@ -4,7 +4,7 @@ export default class Books {
   }
 
   addBook=(title,author) =>{
-    this.AllBooks.push({ title: title.value, author: author.value });
+    this.AllBooks.push({ title: title, author: author });
     this.updateLocalStorage();
   }
 
